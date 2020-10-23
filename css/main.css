@@ -1,0 +1,147 @@
+
+
+@font-face {
+  font-family: 'Galada Regular';
+  src: url('../fonts/galada-regular.woff') format('woff');
+}
+
+
+/***** BASE STYLES *****/
+body {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;	
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+	
+}
+
+.third-width {
+	float: left;
+	width: 350px;
+	}
+
+/***** HEADER *****/
+
+header h1 {
+	font-size: 30px;
+	padding: 10px 0px 0px 5px;
+	text-transform: uppercase;		
+}
+
+header span {
+	color: #77a466;	
+}
+
+nav {
+	float: right;
+	padding: 20px 10px;
+}
+
+nav ul li {
+	color: #77a466;
+	display: inline-block;	
+	font-size: 14px;
+	padding-left: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/***** HERO SECTION *****/
+
+#hero h2 {
+	color: #77a466;
+	font-size: 18px;
+	font-weight: 700;	
+	padding-top: 10px;
+	text-transform: uppercase;
+
+}
+
+#hero p {
+	font-size: 16px;
+	line-height: 25px;
+	padding-bottom: 10px;
+}
+
+#hero img {
+	border-bottom: 5px solid #77a466;
+	border-top: 5px solid #77a466;
+}
+
+/***** BOTTOM BOXES *****/
+
+#bottom-boxes .full-width{
+	border-bottom: 1px solid #dedbdc;
+	border-top: 1px solid #dedbdc;
+}
+
+#bottom-boxes .third-width {
+	padding: 5px 20px;		
+}
+
+#bottom-boxes #menu{	
+	border-right: 1px solid #dedbdc;
+	padding-bottom: 42px;
+}
+
+#bottom-boxes #reviews{
+	border-right: 1px solid #dedbdc;
+	}
+
+#bottom-boxes #reviews p {
+	line-height: 21px;
+	}
+
+#bottom-boxes #contact p {
+	line-height: 24px;
+}
+
+#bottom-boxes h3 {
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#bottom-boxes #menu p {
+	color: #77a466;
+	font-size: 16px;
+	line-height: 18px;
+	list-style: none;
+	text-align: left;	
+}
+
+
+/***** FOOTER *****/
+
+footer p {
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer span {
+color: #77a466;
+font-family: 'Galada Regular';
+font-size: 16px;
+text-transform: lowercase;
+}
+
+
+
+
+
+
+
